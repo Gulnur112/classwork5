@@ -1,0 +1,184 @@
+@media screen and (max-width:700px) {
+    body {
+    background-color: #E6F0F5;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+p{
+    margin:0;
+    padding:0;
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+.header {
+    color: #33A299;
+    font-size: 24px;
+    padding: 20px 20px 0px 20px;
+}
+
+.guarantee {
+    color: #A3C000;
+    font-weight: bold;
+    padding: 20px 20px 0px 20px;
+    
+}
+
+.description {
+    color: #777;
+    margin-bottom: 25px;
+    width:auto;
+    font-size: 20px;
+    height:100px;
+    object-fit: cover;
+    padding: 20px;
+}
+
+.subscription {
+    background-color: #33A299;
+    padding: 20px;
+    color: white;
+    padding: 20px;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.price-description {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.sign-up-btn {
+    background-color: #C7E50C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width:360px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+.why-us {
+    color: white;
+    padding:20px;
+    background-color: #4ac1b7;
+    font-weight: 500;
+}
+
+.why-us ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.why-us li {
+    margin-bottom: 10px;
+} 
+}
+@media screen and (min-width:701px) {
+    body {
+    background-color: #E6F0F5;
+    
+    height: 100vh;
+    margin: 0;
+    
+}
+p{
+    margin:0;
+    padding:0;
+}
+
+.container {
+    background-color: white;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-rows: 45% 55%;
+}
+
+.header {
+    color: #33A299;
+    font-size: 24px;
+    padding: 20px 20px 0px 20px;
+}
+
+.guarantee {
+    color: #A3C000;
+    font-weight: bold;
+    padding: 20px 20px 0px 20px;
+    
+}
+
+.description {
+    color: #777;
+    margin-bottom: 25px;
+    width:auto;
+    font-size: 20px;
+    height:100px;
+    object-fit: cover;
+    padding: 20px;
+}
+
+.subscription {
+    background-color: #33A299;
+    padding: 20px;
+    color: white;
+    padding: 20px;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.price-description {
+    font-size: 14px;
+}
+
+.sign-up-btn {
+    background-color: #C7E50C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width:360px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+.why-us {
+    color: white;
+    padding:20px;
+    background-color: #4ac1b7;
+    font-weight: 500;
+}
+
+.why-us ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.why-us li {
+    margin-bottom: 10px;
+}  
+.down{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} 
+.up{
+    padding:0;
+}
+}
